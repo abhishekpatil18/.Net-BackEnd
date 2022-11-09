@@ -29,9 +29,11 @@ namespace Assignments
             account.openBankAccount("Abhishek", "saving");
 
             Customer customer = new Customer();
-            customer.calculateSavingInterest(100000, 2);
-            
+            //customer.openBankAccount("Damodhar", "Current");
+            //customer.calculateSavingInterest(100000, 2);
+            customer.calculateCurrentRate(200000, 4);
 
+            //class1 c = new class1();
 
         }
     }

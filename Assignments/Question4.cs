@@ -12,7 +12,7 @@ namespace Assignments
        static string userName = " ";
        static string accountType = " ";
        static double savingRate = 5.5;
-       static double currentRate = 5.5;
+       static double currentRate = 4.5;
 
 
         public static double getSavingRate()
@@ -78,7 +78,7 @@ namespace Assignments
             Console.WriteLine("For saving Account");
             double sRate=(p*n*getSavingRate())/100; 
                 
-            setSavingRate(sRate);
+            //setSavingRate(sRate);
             Console.WriteLine(" Rate of Interest on Savings : " + getSavingRate());
         }
 
@@ -88,7 +88,7 @@ namespace Assignments
             double cRate = (p * n * getCurrentRate())/100;
 
             setCurrentRate(cRate);
-            Console.WriteLine(" Rate of Current on Savings : " + getCurrentRate());
+            Console.WriteLine(" Rate of Current on Current : " + getCurrentRate());
         }
     }
 }
