@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/.Net-BackEnd/FileContentIndex
+/Assignments/.vs/Assignments
+/Assignments/bin/Debug/net6.0
+/Assignments/obj/Debug/net6.0
+/Assignments/obj
+/Assignment_2/.vs/Assignment_2
+/Assignment_2/bin/Debug/net6.0
+/Assignment_2/obj
