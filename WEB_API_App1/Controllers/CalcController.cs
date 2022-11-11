@@ -13,6 +13,8 @@ namespace WEB_API_App1.Controllers
             return new string[] {
             API_Calculator.Class1.Add(6, 8),
             API_Calculator.Class1.Sub(90, 27),
+            API_Calculator.Class1.Mult(45, 4),
+            API_Calculator.Class1.Div(81, 9),
          };
         }
 
