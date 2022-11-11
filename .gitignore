@@ -11,3 +11,6 @@
 /Calculator/.vs/Calculator
 /Calculator/bin/Debug/net6.0-windows
 /Calculator/obj
+/WebApplicationCore
+/WebApplicationAPICore
+/Calculate/obj/Debug/net6.0

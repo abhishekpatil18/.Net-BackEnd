@@ -269,7 +269,6 @@
             this.lCurrentOp.Name = "lCurrentOp";
             this.lCurrentOp.Size = new System.Drawing.Size(0, 38);
             this.lCurrentOp.TabIndex = 2;
-            //this.lCurrentOp.Click += new System.EventHandler(this.lCurrentOp);
             // 
             // Form1
             // 
@@ -298,6 +297,7 @@
             this.Controls.Add(this.seven);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
