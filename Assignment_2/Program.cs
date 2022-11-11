@@ -1,4 +1,5 @@
 ﻿using Assignment_2.Questions;
+using ConsoleApp2;
 using System.Runtime.ConstrainedExecution;
 
 namespace Assignment_2
@@ -36,7 +37,16 @@ namespace Assignment_2
             }
 
 
+            Question4 que4 = new Question4();
+            que4.ReadFile();
 
+            Employees emp = new Employees();
+            emp.ShowData();
+
+
+            Console.WriteLine("This is Question 6 \n");
+            Question6 que6 = new Question6();
+            que6.Assignment_Q_6();
 
 
         }
