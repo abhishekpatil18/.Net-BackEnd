@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/.Net-BackEnd/FileContentIndex
+/Assignments
+/Assignment_2
+/Calculator
+/Calculate/obj
+/WebApplicationAPICore/.vs/WebApplicationAPICore
+/WebApplicationAPICore/obj/Debug/net6.0
+/WebApplicationAPICore/obj
+/WebApplicationAPICore/Properties
+/WebApplicationCore/.vs
+/WebApplicationCore/obj
+/WebApplicationCore/Pages
+/WebApplicationCore/Properties
+/WebApplicationCore/wwwroot
