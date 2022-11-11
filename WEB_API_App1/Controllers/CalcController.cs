@@ -17,30 +17,5 @@ namespace WEB_API_App1.Controllers
             API_Calculator.Class1.Div(81, 9),
          };
         }
-
-        //// GET api/Calc/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return $"value {id}";
-        //}
-
-        //// POST api/Calc
-        //[HttpPost]
-        //public void Post([FromBody] string value)
-        //{
-        //}
-
-        //// PUT api/Calc/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
-
-        //// DELETE api/Calc/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
     }
 }

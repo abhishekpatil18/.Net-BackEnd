@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\WEB_API_App1\\WEB_API_App1.csproj": {}
+    "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\WEB_API_App1\\WEB_API_App1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\API_Calculator\\API_Calculator.csproj": {
+    "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\API_Calculator\\API_Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\API_Calculator\\API_Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\API_Calculator\\API_Calculator.csproj",
         "projectName": "API_Calculator",
-        "projectPath": "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\API_Calculator\\API_Calculator.csproj",
+        "projectPath": "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\API_Calculator\\API_Calculator.csproj",
         "packagesPath": "C:\\Users\\Abhishek.Patil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\API_Calculator\\obj\\",
+        "outputPath": "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\API_Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abhishek.Patil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\WEB_API_App1\\WEB_API_App1.csproj": {
+    "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\WEB_API_App1\\WEB_API_App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\WEB_API_App1\\WEB_API_App1.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\WEB_API_App1\\WEB_API_App1.csproj",
         "projectName": "WEB_API_App1",
-        "projectPath": "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\WEB_API_App1\\WEB_API_App1.csproj",
+        "projectPath": "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\WEB_API_App1\\WEB_API_App1.csproj",
         "packagesPath": "C:\\Users\\Abhishek.Patil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\WEB_API_App1\\obj\\",
+        "outputPath": "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\WEB_API_App1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abhishek.Patil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\API_Calculator\\API_Calculator.csproj": {
-                "projectPath": "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\API_Calculator\\API_Calculator.csproj"
+              "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\API_Calculator\\API_Calculator.csproj": {
+                "projectPath": "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\API_Calculator\\API_Calculator.csproj"
               }
             }
           }
