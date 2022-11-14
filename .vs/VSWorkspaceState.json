@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebApplicationFrameWork\\obj",
+    "\\WEB_API_App1\\obj",
+    "\\WEB_API_App1\\obj\\Debug",
+    "\\WEB_API_App1\\obj\\Debug\\net6.0"
   ],
-  "SelectedNode": "\\C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd",
+  "SelectedNode": "\\WEB_API_App1",
   "PreviewInSolutionExplorer": false
 }
