@@ -10,15 +10,14 @@ namespace Ado.NetApp.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase
-    {
+    { 
         private IConfiguration _configuration;
-
         private EmployeeRepository empReop;
 
-        public EmployeeController(IConfiguration configuration)
+        public EmployeeController(IConfiguration config)
         {
-            _configuration = configuration;
-            empReop = new EmployeeRepository(configuration);
+            _configuration = config;
+            empReop = new EmployeeRepository(_configuration);
         }
 
         [HttpGet("dapper")]
