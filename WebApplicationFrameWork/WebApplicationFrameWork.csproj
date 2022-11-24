@@ -247,9 +247,9 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
-      <Project>{d022ba69-3b2f-4714-a852-57bbc28b16d5}</Project>
-      <Name>ClassLibrary1</Name>
+    <ProjectReference Include="..\CalcFunctions\CalcFunctions.csproj">
+      <Project>{8d1b147e-d85d-411c-bbee-e02f9767a22d}</Project>
+      <Name>CalcFunctions</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

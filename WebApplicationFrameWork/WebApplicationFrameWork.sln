@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationFrameWork", "WebApplicationFrameWork.csproj", "{6FF9A88B-7EF3-4491-93ED-A88CF8C35BF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "..\ClassLibrary1\ClassLibrary1.csproj", "{D022BA69-3B2F-4714-A852-57BBC28B16D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcFunctions", "..\CalcFunctions\CalcFunctions.csproj", "{8D1B147E-D85D-411C-BBEE-E02F9767A22D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{6FF9A88B-7EF3-4491-93ED-A88CF8C35BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FF9A88B-7EF3-4491-93ED-A88CF8C35BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FF9A88B-7EF3-4491-93ED-A88CF8C35BF1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D022BA69-3B2F-4714-A852-57BBC28B16D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D022BA69-3B2F-4714-A852-57BBC28B16D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D022BA69-3B2F-4714-A852-57BBC28B16D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D022BA69-3B2F-4714-A852-57BBC28B16D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1B147E-D85D-411C-BBEE-E02F9767A22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1B147E-D85D-411C-BBEE-E02F9767A22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1B147E-D85D-411C-BBEE-E02F9767A22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1B147E-D85D-411C-BBEE-E02F9767A22D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

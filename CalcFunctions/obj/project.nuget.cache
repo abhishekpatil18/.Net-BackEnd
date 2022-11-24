@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3CUiY4oADS1tVZ3TFfvzMi3JPG5i1ApRZp3nU2Vqxneh3YPiPFAIj80uBn96uqTiY4YLCUR+OYKGChkVSddmpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\CalcFunctions\\CalcFunctions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abhishek.Patil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Abhishek.Patil\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
