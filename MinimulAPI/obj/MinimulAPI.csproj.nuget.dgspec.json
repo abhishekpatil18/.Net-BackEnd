@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\MinimulAPI\\MinimulAPI.csproj": {}
+    "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\MinimulAPI\\MinimulAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\MinimulAPI\\MinimulAPI.csproj": {
+    "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\MinimulAPI\\MinimulAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\MinimulAPI\\MinimulAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\MinimulAPI\\MinimulAPI.csproj",
         "projectName": "MinimulAPI",
-        "projectPath": "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\MinimulAPI\\MinimulAPI.csproj",
+        "projectPath": "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\MinimulAPI\\MinimulAPI.csproj",
         "packagesPath": "C:\\Users\\Abhishek.Patil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abhishek.Patil\\source\\repos\\.Net-BackEnd\\MinimulAPI\\obj\\",
+        "outputPath": "C:\\Users\\Abhishek.Patil\\Source\\Repos\\.Net-BackEnd\\MinimulAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abhishek.Patil\\AppData\\Roaming\\NuGet\\NuGet.Config",
