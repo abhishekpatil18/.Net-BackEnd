@@ -16,24 +16,22 @@ namespace Assignments
         static void Main(string[] args)
         {
             Question1 obj = new Question1();
-            //Question_1(obj);
+            Question_1(obj);
 
             Question2 q2 = new Question2();
-            //q2.validate("abhi@gmail.in");
+            q2.validate("abhi@gmail.in");
 
             Question3 q3 = new Question3();
-            //q3.showENum();
+            q3.showENum();
 
             //Question4 q4 = new Question4();
             BankAccount account = new BankAccount();
             account.openBankAccount("Abhishek", "saving");
 
             Customer customer = new Customer();
-            //customer.openBankAccount("Damodhar", "Current");
-            //customer.calculateSavingInterest(100000, 2);
+            customer.openBankAccount("Damodhar", "Current");
+            customer.calculateSavingInterest(100000, 2);
             customer.calculateCurrentRate(200000, 4);
-
-            //class1 c = new class1();
 
         }
     }
