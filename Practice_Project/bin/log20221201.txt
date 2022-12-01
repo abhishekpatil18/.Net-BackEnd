@@ -1,0 +1,280 @@
+2022-12-01 15:38:23.958 +05:30 [INF] Now listening on: https://localhost:7177
+2022-12-01 15:38:24.006 +05:30 [INF] Now listening on: http://localhost:5177
+2022-12-01 15:38:24.011 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 15:38:24.013 +05:30 [INF] Hosting environment: Development
+2022-12-01 15:38:24.014 +05:30 [INF] Content root path: C:\Users\Abhishek.Patil\source\repos\.Net-BackEnd\Practice_Project\
+2022-12-01 15:38:24.745 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - -
+2022-12-01 15:38:25.378 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - -
+2022-12-01 15:38:25.379 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - -
+2022-12-01 15:38:25.391 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - - - 200 - text/html;charset=utf-8 647.9585ms
+2022-12-01 15:38:25.391 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 12.0943ms
+2022-12-01 15:38:25.501 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 121.1831ms
+2022-12-01 15:38:25.672 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - -
+2022-12-01 15:38:25.862 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 190.1367ms
+2022-12-01 15:39:24.736 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book?stdId=2 - -
+2022-12-01 15:39:24.789 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 15:39:24.888 +05:30 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] Get(Int32) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 15:39:26.984 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Practice_Project.Model.Book, Practice_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-01 15:39:27.044 +05:30 [INF] Executed action Practice_Project.Controllers.BookController.Get (Practice_Project) in 2136.8541ms
+2022-12-01 15:39:27.058 +05:30 [INF] Executed endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 15:39:27.063 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book?stdId=2 - - - 200 - application/json;+charset=utf-8 2326.7634ms
+2022-12-01 15:41:55.932 +05:30 [INF] Now listening on: https://localhost:7177
+2022-12-01 15:41:55.983 +05:30 [INF] Now listening on: http://localhost:5177
+2022-12-01 15:41:55.992 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 15:41:55.994 +05:30 [INF] Hosting environment: Development
+2022-12-01 15:41:55.994 +05:30 [INF] Content root path: C:\Users\Abhishek.Patil\source\repos\.Net-BackEnd\Practice_Project\
+2022-12-01 15:41:56.925 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - -
+2022-12-01 15:41:57.495 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - - - 200 - text/html;charset=utf-8 575.3027ms
+2022-12-01 15:41:57.514 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - -
+2022-12-01 15:41:57.514 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - -
+2022-12-01 15:41:57.524 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 9.4519ms
+2022-12-01 15:41:57.557 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.6980ms
+2022-12-01 15:41:57.752 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - -
+2022-12-01 15:41:57.894 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.5718ms
+2022-12-01 15:42:07.024 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book?stdId=2 - -
+2022-12-01 15:42:07.044 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 15:42:07.132 +05:30 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] Get(Int32) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 15:42:09.352 +05:30 [INF] Executing Get method using log
+2022-12-01 15:42:09.401 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Practice_Project.Model.Book, Practice_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-01 15:42:09.466 +05:30 [INF] Executed action Practice_Project.Controllers.BookController.Get (Practice_Project) in 2319.6012ms
+2022-12-01 15:42:09.485 +05:30 [INF] Executed endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 15:42:09.493 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book?stdId=2 - - - 200 - application/json;+charset=utf-8 2468.6734ms
+2022-12-01 15:44:05.575 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - -
+2022-12-01 15:44:05.604 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - - - 200 - text/html;charset=utf-8 29.1966ms
+2022-12-01 15:44:05.623 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - -
+2022-12-01 15:44:05.636 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - -
+2022-12-01 15:44:05.639 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 16.0571ms
+2022-12-01 15:44:05.662 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.2401ms
+2022-12-01 15:44:05.730 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - -
+2022-12-01 15:44:05.735 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.0777ms
+2022-12-01 15:44:19.899 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book?stdId=76 - -
+2022-12-01 15:44:19.900 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 15:44:19.914 +05:30 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] Get(Int32) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 15:44:19.947 +05:30 [INF] Executing Get method using log
+2022-12-01 15:44:19.950 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Practice_Project.Model.Book, Practice_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-01 15:44:19.957 +05:30 [INF] Executed action Practice_Project.Controllers.BookController.Get (Practice_Project) in 35.6054ms
+2022-12-01 15:44:19.961 +05:30 [INF] Executed endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 15:44:19.966 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book?stdId=76 - - - 200 - application/json;+charset=utf-8 67.4826ms
+2022-12-01 15:45:22.118 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - -
+2022-12-01 15:45:22.151 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - - - 200 - text/html;charset=utf-8 33.2895ms
+2022-12-01 15:45:22.167 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - -
+2022-12-01 15:45:22.168 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - -
+2022-12-01 15:45:22.170 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.5208ms
+2022-12-01 15:45:22.207 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.8558ms
+2022-12-01 15:45:22.298 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - -
+2022-12-01 15:45:22.301 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.7483ms
+2022-12-01 15:45:41.671 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book?stdId=987 - -
+2022-12-01 15:45:41.674 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 15:45:41.683 +05:30 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] Get(Int32) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 15:45:41.781 +05:30 [WRN] Data is not available in database for this 987 ID
+2022-12-01 15:45:41.783 +05:30 [INF] Executing Get method using log
+2022-12-01 15:45:41.785 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Practice_Project.Model.Book, Practice_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-01 15:45:41.789 +05:30 [INF] Executed action Practice_Project.Controllers.BookController.Get (Practice_Project) in 97.9017ms
+2022-12-01 15:45:41.796 +05:30 [INF] Executed endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 15:45:41.804 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book?stdId=987 - - - 200 - application/json;+charset=utf-8 133.6119ms
+2022-12-01 15:51:22.246 +05:30 [INF] Now listening on: https://localhost:7177
+2022-12-01 15:51:22.295 +05:30 [INF] Now listening on: http://localhost:5177
+2022-12-01 15:51:22.300 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 15:51:22.301 +05:30 [INF] Hosting environment: Development
+2022-12-01 15:51:22.302 +05:30 [INF] Content root path: C:\Users\Abhishek.Patil\source\repos\.Net-BackEnd\Practice_Project\
+2022-12-01 15:51:22.985 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - -
+2022-12-01 15:51:23.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - - - 200 - text/html;charset=utf-8 560.9249ms
+2022-12-01 15:51:23.556 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - -
+2022-12-01 15:51:23.556 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - -
+2022-12-01 15:51:23.565 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 8.7026ms
+2022-12-01 15:51:23.604 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.1598ms
+2022-12-01 15:51:23.761 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - -
+2022-12-01 15:51:23.900 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.2841ms
+2022-12-01 15:51:33.714 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/byEntity?stdId=1 - -
+2022-12-01 15:51:33.737 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.GetByEntity (Practice_Project)'
+2022-12-01 15:51:33.852 +05:30 [INF] Route matched with {action = "GetByEntity", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] GetByEntity(Int32) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 15:51:40.518 +05:30 [INF] Executed DbCommand (311ms) [Parameters=[@__stdId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[bookId], [b].[Title], [b].[studentId], [s].[Id], [s].[CurrentYear], [s].[Department], [s].[Name]
+FROM [Books] AS [b]
+INNER JOIN [Students] AS [s] ON [b].[studentId] = [s].[Id]
+WHERE [b].[studentId] = @__stdId_0
+2022-12-01 15:51:40.951 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Practice_Project.Model.Book, Practice_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-01 15:51:41.014 +05:30 [INF] Executed action Practice_Project.Controllers.BookController.GetByEntity (Practice_Project) in 7137.8688ms
+2022-12-01 15:51:41.025 +05:30 [INF] Executed endpoint 'Practice_Project.Controllers.BookController.GetByEntity (Practice_Project)'
+2022-12-01 15:51:41.072 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/byEntity?stdId=1 - - - 200 - application/json;+charset=utf-8 7357.4197ms
+2022-12-01 16:01:20.273 +05:30 [INF] Now listening on: https://localhost:7177
+2022-12-01 16:01:20.331 +05:30 [INF] Now listening on: http://localhost:5177
+2022-12-01 16:01:20.338 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 16:01:20.342 +05:30 [INF] Hosting environment: Development
+2022-12-01 16:01:20.345 +05:30 [INF] Content root path: C:\Users\Abhishek.Patil\source\repos\.Net-BackEnd\Practice_Project\
+2022-12-01 16:01:21.050 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - -
+2022-12-01 16:01:21.526 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - - - 200 - text/html;charset=utf-8 478.2943ms
+2022-12-01 16:01:21.543 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - -
+2022-12-01 16:01:21.546 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - -
+2022-12-01 16:01:21.568 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 25.2063ms
+2022-12-01 16:01:21.602 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.1304ms
+2022-12-01 16:01:21.688 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - -
+2022-12-01 16:01:21.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.4493ms
+2022-12-01 16:01:32.956 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/getData/usingEntity?stdId=2 - -
+2022-12-01 16:01:32.973 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.GetByEntity (Practice_Project)'
+2022-12-01 16:01:33.015 +05:30 [INF] Route matched with {action = "GetByEntity", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] GetByEntity(Int32) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 16:03:11.420 +05:30 [INF] Now listening on: https://localhost:7177
+2022-12-01 16:03:11.468 +05:30 [INF] Now listening on: http://localhost:5177
+2022-12-01 16:03:11.475 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 16:03:11.478 +05:30 [INF] Hosting environment: Development
+2022-12-01 16:03:11.480 +05:30 [INF] Content root path: C:\Users\Abhishek.Patil\source\repos\.Net-BackEnd\Practice_Project\
+2022-12-01 16:03:12.393 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - -
+2022-12-01 16:03:12.847 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - - - 200 - text/html;charset=utf-8 459.8307ms
+2022-12-01 16:03:12.850 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - -
+2022-12-01 16:03:12.850 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - -
+2022-12-01 16:03:12.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 26.6988ms
+2022-12-01 16:03:12.912 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.0940ms
+2022-12-01 16:03:12.965 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - -
+2022-12-01 16:03:13.089 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.0899ms
+2022-12-01 16:03:23.747 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/getData/usingEntity?stdID=2 - -
+2022-12-01 16:03:23.763 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.GetByEntity (Practice_Project)'
+2022-12-01 16:03:23.800 +05:30 [INF] Route matched with {action = "GetByEntity", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] GetByEntity(Int32) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 16:03:45.260 +05:30 [INF] Executed action Practice_Project.Controllers.BookController.GetByEntity (Practice_Project) in 21447.543ms
+2022-12-01 16:03:45.272 +05:30 [INF] Executed endpoint 'Practice_Project.Controllers.BookController.GetByEntity (Practice_Project)'
+2022-12-01 16:03:45.279 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Practice_Project.Controllers.BookController.GetByEntity(Int32 stdID) in C:\Users\Abhishek.Patil\source\repos\.Net-BackEnd\Practice_Project\Controllers\BookController.cs:line 53
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 16:03:45.363 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/getData/usingEntity?stdID=2 - - - 500 - text/plain;+charset=utf-8 21616.4094ms
+2022-12-01 16:22:38.666 +05:30 [INF] Now listening on: https://localhost:7177
+2022-12-01 16:22:38.702 +05:30 [INF] Now listening on: http://localhost:5177
+2022-12-01 16:22:38.707 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 16:22:38.708 +05:30 [INF] Hosting environment: Development
+2022-12-01 16:22:38.709 +05:30 [INF] Content root path: C:\Users\Abhishek.Patil\source\repos\.Net-BackEnd\Practice_Project\
+2022-12-01 16:22:39.292 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - -
+2022-12-01 16:22:39.749 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - - - 200 - text/html;charset=utf-8 461.8714ms
+2022-12-01 16:22:39.751 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - -
+2022-12-01 16:22:39.751 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - -
+2022-12-01 16:22:39.780 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 28.3139ms
+2022-12-01 16:22:39.809 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.5989ms
+2022-12-01 16:22:39.898 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - -
+2022-12-01 16:22:40.016 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.6725ms
+2022-12-01 16:22:47.678 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/getData/usingEntity?stdID=1 - -
+2022-12-01 16:22:47.693 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.GetByEntity (Practice_Project)'
+2022-12-01 16:22:47.732 +05:30 [INF] Route matched with {action = "GetByEntity", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] GetByEntity(Int32) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 16:22:50.388 +05:30 [INF] Executed DbCommand (96ms) [Parameters=[@__stdID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[bookId], [b].[Title], [b].[studentId], [s].[Id], [s].[CurrentYear], [s].[Department], [s].[Name]
+FROM [Books] AS [b]
+INNER JOIN [Students] AS [s] ON [b].[studentId] = [s].[Id]
+WHERE [b].[studentId] = @__stdID_0
+2022-12-01 16:22:50.543 +05:30 [INF] Executing Get method using log
+2022-12-01 16:22:50.556 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Practice_Project.Model.Book, Practice_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-01 16:22:50.585 +05:30 [INF] Executed action Practice_Project.Controllers.BookController.GetByEntity (Practice_Project) in 2843.1079ms
+2022-12-01 16:22:50.593 +05:30 [INF] Executed endpoint 'Practice_Project.Controllers.BookController.GetByEntity (Practice_Project)'
+2022-12-01 16:22:50.616 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/getData/usingEntity?stdID=1 - - - 200 - application/json;+charset=utf-8 2937.9830ms
+2022-12-01 16:29:25.742 +05:30 [INF] Now listening on: https://localhost:7177
+2022-12-01 16:29:25.785 +05:30 [INF] Now listening on: http://localhost:5177
+2022-12-01 16:29:25.790 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 16:29:25.792 +05:30 [INF] Hosting environment: Development
+2022-12-01 16:29:25.793 +05:30 [INF] Content root path: C:\Users\Abhishek.Patil\source\repos\.Net-BackEnd\Practice_Project\
+2022-12-01 16:29:26.299 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - -
+2022-12-01 16:29:26.763 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - -
+2022-12-01 16:29:26.763 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - -
+2022-12-01 16:29:26.765 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - - - 200 - text/html;charset=utf-8 473.7451ms
+2022-12-01 16:29:26.779 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 15.7093ms
+2022-12-01 16:29:26.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.6423ms
+2022-12-01 16:29:26.889 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - -
+2022-12-01 16:29:27.052 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 163.0065ms
+2022-12-01 16:29:56.563 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7177/api/Book/createBook/usingEntity application/json 49
+2022-12-01 16:29:56.579 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.Create (Practice_Project)'
+2022-12-01 16:29:56.619 +05:30 [INF] Route matched with {action = "Create", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] Create(Practice_Project.Model.BookDataTransferObject) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 16:29:59.828 +05:30 [INF] Executed DbCommand (109ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[CurrentYear], [s].[Department], [s].[Name]
+FROM [Students] AS [s]
+WHERE [s].[Id] = @__p_0
+2022-12-01 16:30:00.180 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Title], [studentId])
+OUTPUT INSERTED.[bookId]
+VALUES (@p0, @p1);
+2022-12-01 16:30:00.228 +05:30 [INF] Created new record using Entity framework
+2022-12-01 16:30:00.245 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[bookId], [b].[Title], [b].[studentId]
+FROM [Books] AS [b]
+2022-12-01 16:30:00.272 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Practice_Project.Model.Book, Practice_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-01 16:30:00.306 +05:30 [INF] Executed action Practice_Project.Controllers.BookController.Create (Practice_Project) in 3675.473ms
+2022-12-01 16:30:00.309 +05:30 [INF] Executed endpoint 'Practice_Project.Controllers.BookController.Create (Practice_Project)'
+2022-12-01 16:30:00.336 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7177/api/Book/createBook/usingEntity application/json 49 - 200 - application/json;+charset=utf-8 3772.5257ms
+2022-12-01 16:34:34.326 +05:30 [INF] Now listening on: https://localhost:7177
+2022-12-01 16:34:34.373 +05:30 [INF] Now listening on: http://localhost:5177
+2022-12-01 16:34:34.380 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 16:34:34.384 +05:30 [INF] Hosting environment: Development
+2022-12-01 16:34:34.385 +05:30 [INF] Content root path: C:\Users\Abhishek.Patil\source\repos\.Net-BackEnd\Practice_Project\
+2022-12-01 16:34:34.908 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - -
+2022-12-01 16:34:35.436 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - - - 200 - text/html;charset=utf-8 530.8434ms
+2022-12-01 16:34:35.456 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - -
+2022-12-01 16:34:35.456 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - -
+2022-12-01 16:34:35.469 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 12.6980ms
+2022-12-01 16:34:35.515 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.7324ms
+2022-12-01 16:34:35.564 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - -
+2022-12-01 16:34:35.718 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.1250ms
+2022-12-01 16:34:42.517 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/usingDapper?stdId=1 - -
+2022-12-01 16:34:42.532 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 16:34:42.576 +05:30 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] Get(Int32) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 16:35:55.749 +05:30 [INF] Executing Get method using log
+2022-12-01 16:35:59.837 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Practice_Project.Model.Book, Practice_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-01 16:36:06.659 +05:30 [INF] Executed action Practice_Project.Controllers.BookController.Get (Practice_Project) in 84076.5601ms
+2022-12-01 16:36:06.669 +05:30 [INF] Executed endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 16:36:06.681 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/usingDapper?stdId=1 - - - 200 - application/json;+charset=utf-8 84163.9637ms
+2022-12-01 16:53:42.032 +05:30 [INF] Now listening on: https://localhost:7177
+2022-12-01 16:53:42.088 +05:30 [INF] Now listening on: http://localhost:5177
+2022-12-01 16:53:42.094 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 16:53:42.095 +05:30 [INF] Hosting environment: Development
+2022-12-01 16:53:42.096 +05:30 [INF] Content root path: C:\Users\Abhishek.Patil\source\repos\.Net-BackEnd\Practice_Project\
+2022-12-01 16:53:42.630 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - -
+2022-12-01 16:53:43.208 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - - - 200 - text/html;charset=utf-8 580.6101ms
+2022-12-01 16:53:43.212 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - -
+2022-12-01 16:53:43.212 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - -
+2022-12-01 16:53:43.238 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 25.4926ms
+2022-12-01 16:53:43.314 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 101.7152ms
+2022-12-01 16:53:43.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - -
+2022-12-01 16:53:43.529 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 151.8662ms
+2022-12-01 16:54:03.923 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/usingDapper?stdId=367 - -
+2022-12-01 16:54:03.950 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 16:54:04.007 +05:30 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] Get(Int32) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 16:54:36.311 +05:30 [ERR] Data is not available in database for this 367 ID
+2022-12-01 16:54:51.161 +05:30 [INF] Now listening on: https://localhost:7177
+2022-12-01 16:54:51.227 +05:30 [INF] Now listening on: http://localhost:5177
+2022-12-01 16:54:51.234 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 16:54:51.237 +05:30 [INF] Hosting environment: Development
+2022-12-01 16:54:51.237 +05:30 [INF] Content root path: C:\Users\Abhishek.Patil\source\repos\.Net-BackEnd\Practice_Project\
+2022-12-01 16:54:52.100 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - -
+2022-12-01 16:54:52.661 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - - - 200 - text/html;charset=utf-8 564.2524ms
+2022-12-01 16:54:52.684 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - -
+2022-12-01 16:54:52.684 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - -
+2022-12-01 16:54:52.694 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 9.8377ms
+2022-12-01 16:54:52.759 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 74.6293ms
+2022-12-01 16:54:52.828 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - -
+2022-12-01 16:54:52.952 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.8158ms
+2022-12-01 16:55:00.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/usingDapper?stdId=87687 - -
+2022-12-01 16:55:00.045 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 16:55:00.097 +05:30 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] Get(Int32) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 16:55:01.455 +05:30 [ERR] Data is not available in database for this 87687 ID
+2022-12-01 16:55:01.469 +05:30 [INF] Executing ObjectResult, writing value of type 'null'.
+2022-12-01 16:55:01.480 +05:30 [INF] Executed action Practice_Project.Controllers.BookController.Get (Practice_Project) in 1372.5361ms
+2022-12-01 16:55:01.494 +05:30 [INF] Executed endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 16:55:01.500 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/usingDapper?stdId=87687 - - - 204 0 - 1470.4594ms
+2022-12-01 16:56:43.786 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/usingDapper?stdId=1 - -
+2022-12-01 16:56:43.791 +05:30 [INF] Executing endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 16:56:43.792 +05:30 [INF] Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Practice_Project.Model.Book]]] Get(Int32) on controller Practice_Project.Controllers.BookController (Practice_Project).
+2022-12-01 16:56:43.838 +05:30 [INF] Executing Get method using Dapper
+2022-12-01 16:56:43.840 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Practice_Project.Model.Book, Practice_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-12-01 16:56:43.857 +05:30 [INF] Executed action Practice_Project.Controllers.BookController.Get (Practice_Project) in 61.2988ms
+2022-12-01 16:56:43.865 +05:30 [INF] Executed endpoint 'Practice_Project.Controllers.BookController.Get (Practice_Project)'
+2022-12-01 16:56:43.868 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/usingDapper?stdId=1 - - - 200 - application/json;+charset=utf-8 81.8376ms

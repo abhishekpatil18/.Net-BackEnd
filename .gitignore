@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/.Net-BackEnd/FileContentIndex
+/API_Calculator/obj
+/Assignments
+/Assignment_2
+/Calculator
+/ConsoleCalc/.vs/ConsoleCalc/FileContentIndex
+/EF_Assignment/.vs/EF_Assignment
+/MinimulAPI/.vs/MinimulAPI/FileContentIndex
+/WebApplicationFrameWork/.vs
+/Some
+/NewPracticeProject
+/Practice_Project/bin/Debug/net6.0
+/Practice_Project/bin/Release/net6.0
