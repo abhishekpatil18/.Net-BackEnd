@@ -18,15 +18,17 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit.Console" Version="3.16.0" />
+    <PackageReference Include="NUnit.ConsoleRunner" Version="3.16.0" />
+    <PackageReference Include="NUnit.Extension.NUnitProjectLoader" Version="3.7.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.3.1" />
     <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
     <PackageReference Include="Serilog.Extensions.Hosting" Version="5.0.1" />
     <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Some\Some.csproj" />
   </ItemGroup>
 
 </Project>

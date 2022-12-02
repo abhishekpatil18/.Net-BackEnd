@@ -12,7 +12,6 @@ namespace Practice_Project.Repository
 {
     public class BookRepository
     {
-        private readonly IConfiguration _configuration;
         private readonly DataContext _Context;
         private readonly ILogger<BookRepository> _logger;
 
@@ -25,7 +24,6 @@ namespace Practice_Project.Repository
         public async Task<ActionResult<List<Book>>> GetData(int Id)
         {
             var Books = await _Context.Books.Where(c => c.studentId == Id)
-                .Include(c => c.student)
                 .ToListAsync();
 
             if (Books.IsNullOrEmpty())
@@ -40,14 +38,12 @@ namespace Practice_Project.Repository
             }
         }
 
-        public async Task<ActionResult<List<Book>>> Create(BookDataTransferObject bDto)
+        public async Task<ActionResult<List<Book>>> Create(Book bDto)
         {
-            var student = await _Context.Students.FindAsync(bDto.studentId);
-
             var book = new Book
             {
                 Title = bDto.Title,
-                student = student
+                studentId = bDto.studentId
             };
 
             _Context.Add(book);

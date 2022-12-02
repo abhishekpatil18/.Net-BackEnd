@@ -4,6 +4,7 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Practice_Project.Context;
+using Practice_Project.Functions;
 using Practice_Project.Model;
 using Practice_Project.Repository;
 
@@ -17,6 +18,11 @@ namespace Practice_Project.Controllers
         private readonly DataContext _Context;
 
         private readonly ILogger<BookController> _logger;
+        private IConfiguration config;
+        private DataContext context;
+        private ILogger logger;
+        private TestFunctions testFunctions = new TestFunctions();
+
 
         public BookController(IConfiguration config, DataContext context, ILogger<BookController> logger)
         {
@@ -31,16 +37,34 @@ namespace Practice_Project.Controllers
             using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
             var book = await connection.QueryAsync<Book>("SELECT * FROM Books WHERE " +
                 "studentId=@studentID", new { studentId = stdId });
-            if(book.IsNullOrEmpty())
+
+            if (book.IsNullOrEmpty())
             {
                 _logger.LogError($"Data is not available in database for this {stdId} ID");
-                return null;
+                return new List<Book>() { };
             }
             else
             {
-            _logger.LogInformation("Executing Get method using Dapper");
+                _logger.LogInformation("Executing Get method using Dapper");
                 return Ok(book);
             }
+        }
+
+        // Test Function
+        [HttpGet("ByOtherFunction")]
+        public async Task<ActionResult<List<Book>>> GetDataByOtherFuction(string name)
+        {
+            using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+            var bookData = await connection.QueryAsync<Book>("SELECT * FROM Books ");
+            if (bookData != null)
+            {
+                return Ok(testFunctions.FindByBookName(name, (List<Book>)bookData));
+            }
+            else
+            {
+                return BadRequest();
+            };
+
         }
 
         [HttpGet("getData/usingEntity")]
@@ -58,7 +82,6 @@ namespace Practice_Project.Controllers
             */
 
             var Books = await _Context.Books.Where(c => c.studentId == stdID)
-               .Include(c => c.student)
                .ToListAsync();
 
             if (Books.IsNullOrEmpty())
@@ -75,14 +98,13 @@ namespace Practice_Project.Controllers
         }
 
         [HttpPost("createBook/usingEntity")]
-        public async Task<ActionResult<List<Book>>> Create(BookDataTransferObject bDto)
+        public async Task<ActionResult<List<Book>>> Create(Book bDto)
         {
-            var student = await _Context.Students.FindAsync(bDto.studentId);
-
+            //var student = await _Context.Students.FindAsync(bDto.studentId);
             var book = new Book
             {
                 Title = bDto.Title,
-                student = student
+                studentId = bDto.studentId
             };
 
             _Context.Add(book);

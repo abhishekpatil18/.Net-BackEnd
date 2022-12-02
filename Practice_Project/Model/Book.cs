@@ -6,9 +6,6 @@ namespace Practice_Project.Model
     {
         public int bookId { get; set; }
         public string Title { get; set; }
-
-        [JsonIgnore]
-        public Student? student { get; set; }
         public int studentId { get; set; }
     }
 }
