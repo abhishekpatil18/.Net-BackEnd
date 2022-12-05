@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,7 @@ using Practice_Project.Repository;
 
 namespace Practice_Project.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class BookController : ControllerBase
@@ -21,8 +23,6 @@ namespace Practice_Project.Controllers
         private IConfiguration config;
         private DataContext context;
         private ILogger logger;
-        private TestFunctions testFunctions = new TestFunctions();
-
 
         public BookController(IConfiguration config, DataContext context, ILogger<BookController> logger)
         {
@@ -31,40 +31,11 @@ namespace Practice_Project.Controllers
             _Context = context;
         }
 
-        [HttpGet("usingDapper")]
-        public async Task<ActionResult<List<Book>>> Get(int stdId)
+        [HttpGet("getAllBooks")]
+        public async Task<ActionResult<List<Book>>> GetAllBooks()
         {
-            using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
-            var book = await connection.QueryAsync<Book>("SELECT * FROM Books WHERE " +
-                "studentId=@studentID", new { studentId = stdId });
-
-            if (book.IsNullOrEmpty())
-            {
-                _logger.LogError($"Data is not available in database for this {stdId} ID");
-                return new List<Book>() { };
-            }
-            else
-            {
-                _logger.LogInformation("Executing Get method using Dapper");
-                return Ok(book);
-            }
-        }
-
-        // Test Function
-        [HttpGet("ByOtherFunction")]
-        public async Task<ActionResult<List<Book>>> GetDataByOtherFuction(string name)
-        {
-            using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
-            var bookData = await connection.QueryAsync<Book>("SELECT * FROM Books ");
-            if (bookData != null)
-            {
-                return Ok(testFunctions.FindByBookName(name, (List<Book>)bookData));
-            }
-            else
-            {
-                return BadRequest();
-            };
-
+            var books = await _Context.Books.ToListAsync();
+            return Ok(books);
         }
 
         [HttpGet("getData/usingEntity")]
@@ -100,7 +71,6 @@ namespace Practice_Project.Controllers
         [HttpPost("createBook/usingEntity")]
         public async Task<ActionResult<List<Book>>> Create(Book bDto)
         {
-            //var student = await _Context.Students.FindAsync(bDto.studentId);
             var book = new Book
             {
                 Title = bDto.Title,
@@ -112,6 +82,32 @@ namespace Practice_Project.Controllers
             _logger.LogInformation("Created new record using Entity framework");
             return Ok(await _Context.Books.ToListAsync());
         }
+
+        [HttpPut("updateBook/usingEntity")]
+        public async Task<ActionResult<List<Book>>> Update(Book bDto)
+        {
+            var book = await _Context.Books.FirstOrDefaultAsync(x => x.bookId == bDto.bookId);
+            if(book != null)
+                 _Context.Entry(book).CurrentValues.SetValues(bDto);
+
+            await _Context.SaveChangesAsync();
+            _logger.LogInformation("Updated a record using Entity framework");
+            return Ok(await _Context.Books.ToListAsync());
+        }
+
+        [HttpDelete("deleteBook/usingEntity")]
+        public async Task<ActionResult<Book>> Delete(int id)
+        {
+           var book =await _Context.Books.FindAsync(id);
+
+           
+                _Context.Books.Remove(book);
+                await _Context.SaveChangesAsync();
+    
+            _logger.LogInformation($"Deleted a record with Id {id} using Entity framework");
+            return Ok(book);
+        }
+
 
     }
 }

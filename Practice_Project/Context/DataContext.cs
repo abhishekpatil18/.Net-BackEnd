@@ -9,5 +9,6 @@ namespace Practice_Project.Context
 
         public DbSet<Student> Students { get; set; }
         public DbSet<Book> Books { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
