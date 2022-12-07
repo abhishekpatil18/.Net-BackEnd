@@ -21,7 +21,7 @@ namespace Some
         [Test]
         public void FindByBookName_Works()
         {
-            string name = "Some";
+           string name = "Some";
            var books = new List<Book>()
             {
                 new Book{ Title="Some",studentId=2 },

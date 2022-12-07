@@ -28,6 +28,7 @@ namespace Practice_Project.Controllers
         [HttpPost("Authenticate")]
         public IActionResult Authenticate(User user)
         {
+
             var _user = _Context.Users.FirstOrDefault(u =>u.userName == user.userName && u.password == user.password);
 
                 if (_user == null) return Unauthorized();
@@ -39,7 +40,6 @@ namespace Practice_Project.Controllers
 
                 Subject = new ClaimsIdentity
                 (
-
                     new Claim[]
                     {
                         new Claim(ClaimTypes.Name, _user.userName)

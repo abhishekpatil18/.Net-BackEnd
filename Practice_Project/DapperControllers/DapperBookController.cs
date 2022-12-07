@@ -3,8 +3,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.VisualBasic;
 using Practice_Project.Functions;
 using Practice_Project.Model;
+using System.Data;
 
 namespace Practice_Project.DapperControllers
 {
@@ -22,6 +24,24 @@ namespace Practice_Project.DapperControllers
             _configuration = config;
             _logger = logger;
         }
+
+
+        [HttpGet("GetAllBooksBySP")]
+        public async Task<ActionResult<List<Book>>> GetAllBooksBySP()
+        {
+            using var conn = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+            var books = await conn.QueryAsync<Book>("SP_GetBooks");
+            return Ok(books);
+        }
+
+        [HttpGet("GetBookByID")]
+        public async Task<ActionResult<List<Book>>> GetBookById( int Id )
+        {
+            using var conn = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+            var book = await conn.QueryAsync<Book>("GetBookByID", new { bookId = Id }, commandType:CommandType.StoredProcedure);
+            return Ok(book);
+        }
+
 
         [HttpGet("usingDapper")]
         public async Task<ActionResult<List<Book>>> Get(int stdId)
@@ -53,8 +73,8 @@ namespace Practice_Project.DapperControllers
         }
 
         // Test Function
-        [HttpGet("ByOtherFunction")]
-        public async Task<ActionResult<List<Book>>> GetDataByOtherFuction(string name)
+        [HttpGet("byTestFuction")]
+        public async Task<ActionResult<List<Book>>> GetDataByTestFuction(string name)
         {
             using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
             var bookData = await connection.QueryAsync<Book>("SELECT * FROM Books ");
@@ -66,9 +86,26 @@ namespace Practice_Project.DapperControllers
             {
                 return BadRequest();
             };
-
         }
 
+        //Updating Book Details
+        [HttpPut("UpdateBooksBySP")]
+        public async Task<ActionResult<List<Book>>> UpdateBooksBySP(Book b)
+        {
+            using var conn = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+            var book = await conn.ExecuteAsync("UpdateBook", new {bookId=b.bookId,Title=b.Title,studentID=b.studentId},commandType:CommandType.StoredProcedure);
+            return Ok(book);
+        }
+
+
+        //Deleting Book
+        [HttpDelete("deleteBook")]
+        public async Task<ActionResult<List<Book>>> DeleteBook(int id)
+        {
+            using var conn = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+            var book = await conn.ExecuteAsync("Delete_Book", new { Id = id },commandType: CommandType.StoredProcedure);
+            return Ok(book);
+        }
 
     }
 }

@@ -16,17 +16,11 @@ namespace Practice_Project.Controllers
     [ApiController]
     public class BookController : ControllerBase
     {
-        private readonly IConfiguration _configuration;
         private readonly DataContext _Context;
-
         private readonly ILogger<BookController> _logger;
-        private IConfiguration config;
-        private DataContext context;
-        private ILogger logger;
 
-        public BookController(IConfiguration config, DataContext context, ILogger<BookController> logger)
+        public BookController(DataContext context, ILogger<BookController> logger)
         {
-            _configuration = config;
             _logger = logger;
             _Context = context;
         }
@@ -100,7 +94,6 @@ namespace Practice_Project.Controllers
         {
            var book =await _Context.Books.FindAsync(id);
 
-           
                 _Context.Books.Remove(book);
                 await _Context.SaveChangesAsync();
     
